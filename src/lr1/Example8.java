@@ -1,7 +1,7 @@
 package lr1;
 import java.util.Scanner;
 
-public class Exatple8 {
+public class Example8 {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Exatple8 {
             System.out.println("Введите дату (количество дней в месяце)：");
             int date = scanner.nextInt();
 
-            System.out.println("Сегодня：" + dayOfWeek + "，" +  date + "日。" + month + "月");
+            System.out.println("Сегодня：" + dayOfWeek + "，" +  date + "день。" + month + "месяц");
         }
     }
 
